@@ -18,9 +18,10 @@
   margin: auto !important;
   display: flex !important;
   opacity: 0.5 !important;
-  align-content: center;
-  align-items: center;
-  align-self: center;
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .center {
@@ -80,11 +81,20 @@
   width: auto !important;
 }
 
-footer { 
-  font-size: 8px; 
-  color:white;
-  opacity: 0.50;
+footer {
+  bottom: 0;
+  position: auto;
+  font-size: 14px;
+  color: white;
+  opacity: 0.5;
+  display: table;
+  height: auto;
+  margin: auto;
+  width: auto;
+  text-align: center;
+  padding: 10px;
 }
+
 hr {
   display: block !important;
   margin-top: 0.5em !important;
