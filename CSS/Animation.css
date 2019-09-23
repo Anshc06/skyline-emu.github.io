@@ -1,27 +1,23 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-
 .context {
     width: 100%;
     position: absolute;
-    top:50vh;
-    
+    top: 50vh;
 }
 
-.area{
+.area {
     /* background: #4d0c4b;  
     background: -webkit-linear-gradient(to left, #230b4e, #4e54c8);   */
     background: url("../Assets/Background.png") center / cover !important;
     width: 100%;
-    height:100vh;
-    
-   
+    height: 100vh;
 }
 
-.circles{
+.switch {
     top: 0;
     left: 0;
     width: 100%;
@@ -29,7 +25,7 @@
     overflow: hidden;
 }
 
-.circles li{
+.switch li {
     position: absolute;
     display: block;
     list-style: none;
@@ -38,33 +34,31 @@
     background: rgba(255, 255, 255, 0.2);
     animation: animate 25s linear infinite;
     bottom: 150px;
-    
 }
 
-.circles li:nth-child(1){
+.switch li:nth-child(1) {
     left: 25%;
     width: 25px;
     height: 60px;
     animation-delay: 0s;
 }
 
-
-.circles li:nth-child(2){
-    left:45%;
+.switch li:nth-child(2) {
+    left: 45%;
     width: 128px;
     height: 64px;
     animation-delay: 0s;
     animation-duration: 12s;
 }
 
-.circles li:nth-child(3){
+.switch li:nth-child(3) {
     left: 40%;
     width: 32px;
     height: 64px;
     animation-delay: 0s;
 }
 
-.circles li:nth-child(4){
+.switch li:nth-child(4) {
     left: 40%;
     width: 32;
     height: 64px;
@@ -72,28 +66,28 @@
     animation-duration: 18s;
 }
 
-.circles li:nth-child(5){
+.switch li:nth-child(5) {
     left: 25%;
     width: 32px;
     height: 64px;
     animation-delay: 0s;
 }
 
-.circles li:nth-child(6){
+.switch li:nth-child(6) {
     left: 45%;
     width: 128px;
     height: 64;
     animation-delay: .0s;
 }
 
-.circles li:nth-child(7){
+.switch li:nth-child(7) {
     left: 0%;
     width: 128px;
     height: 64px;
     animation-delay: 0s;
 }
 
-.circles li:nth-child(8){
+.switch li:nth-child(8) {
     left: 30%;
     width: 64px;
     height: 32px;
@@ -101,7 +95,7 @@
     animation-duration: 45s;
 }
 
-.circles li:nth-child(9){
+.switch li:nth-child(9) {
     left: 20%;
     width: 64px;
     height: 32px;
@@ -109,7 +103,7 @@
     animation-duration: 35s;
 }
 
-.circles li:nth-child(10){
+.switch li:nth-child(10) {
     left: 85%;
     width: 256px;
     height: 128px;
@@ -118,17 +112,14 @@
 }
 
 @keyframes animate {
-
-    0%{
+    0% {
         transform: translateY(0) rotate(0deg);
         opacity: 0;
         border-radius: 0;
     }
-
-    100%{
+    100% {
         transform: translateY(-1000px) rotate(720deg);
         opacity: 1;
         border-radius: 5%;
     }
-
 }
